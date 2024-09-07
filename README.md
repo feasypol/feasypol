@@ -1,1 +1,1 @@
-Personal website project. Thanks for the https://github.com/Djatiaja for helping me create the blog feature.
+Personal website project. Thank to https://github.com/Djatiaja for helping me create the blog feature.

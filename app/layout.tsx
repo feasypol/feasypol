@@ -16,7 +16,7 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "feasypol",
   description:
-    "easy is a self-proclaimed artist. Focusing on graphic design and 3D art.",
+    "easy! is a self-proclaimed artist. Occasionaly creating graphic design and 3D art.",
 };
 
 export default function RootLayout({

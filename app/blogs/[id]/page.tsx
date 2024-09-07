@@ -9,7 +9,7 @@ export default function Page(params: {params: {id: string}}) {
     const id = params.params.id;
     const blogPost = blog.blogs.find((blog) => blog.id.toString() === id);
     return (
-      <div className="px-52 pt-12 flex w-full flex-col text-2xl/6">
+      <div className="px-52 pt-12 flex w-full flex-col text-2xl">
         <Nav />
         <h1 className="self-center underline font-bold mt-4">
           {blogPost?.title}
