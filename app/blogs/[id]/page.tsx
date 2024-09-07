@@ -17,7 +17,7 @@ export default function Page(params: {params: {id: string}}) {
         <p className="self-center mt-2 mb-9">{blogPost?.date}</p>
         <div className="flex w-full justify-center mb-9">
           <Image
-            src="/assets/Cover_dekstop.png"
+            src="/assets/cover_dekstop.png"
             alt="placeholder"
             width={1500}
             height={300}
