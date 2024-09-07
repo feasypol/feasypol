@@ -14,7 +14,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Feasypol",
+  title: "feasypol",
   description:
     "easy is a self-proclaimed artist. Focusing on graphic design and 3D art.",
 };

@@ -10,7 +10,7 @@ export default function Page() {
         <Nav />
         <div className="flex w-full justify-center">
           <Image
-            src="/assets/Cover_dekstop.png"
+            src="/assets/cover_dekstop.png"
             alt="placeholder"
             width={1500}
             height={300}

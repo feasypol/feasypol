@@ -10,7 +10,7 @@ export default function Home() {
         <Nav />
         <div className="flex w-full justify-center">
           <Image
-          src="/assets/Cover_dekstop.png"
+          src="/assets/cover_dekstop.png"
           alt="placeholder"
           width={1500}
           height={300}
@@ -21,16 +21,16 @@ export default function Home() {
         </div>
         <div className="pt-6 text-2xl/6">
           <h1 className="">
-            <LinkProject text="easy" link="/" target="_blank" />
+            <LinkProject text="easy!" link="https://instagram.com/feasypol" target="_blank" />
             &nbsp;(dia) <br />
             is a self-proclaimed artist. Focusing on graphic design and 3D art.
           </h1>
           <br />
           <p>
             Occasionally writing{" "}
-            <LinkProject text="poems" link="/" target="_blank" />. Playing
+            <LinkProject text="poems" link="https://instagram.com/sajakmesin" target="_blank" />. Playing
             with&nbsp;
-            <LinkProject text="codes" link="/" target="_blank" /> on the side.{" "}
+            <LinkProject text="codes" link="https://github.com/feasypol" target="_blank" /> on the side.{" "}
             <br /> Their interest are community service, advocacy, inclusivity,
             and journalism. Would like to spend time to learn something new,
             everyday.
@@ -39,32 +39,39 @@ export default function Home() {
           <p>Based in Yogyakarta, Indonesia.</p>
           <br />
           <h2>
-            <LinkProject text="easy!`" link="\" target="_blank" /> currently
+            <LinkProject text="easy!" link="\" target="_blank" /> currently
             active in{" "}
             <LinkProject
               text="DEMA Fisipol UGM"
-              link="\"
+              link="https://instagram.com/demafisipolugm"
               target="_blank"
               extraStyle="underline"
             />
             ,{" "}
             <LinkProject
               text="SAUDC UGM"
-              link="\"
+              link="https://instagram.com/pedulidifabelugm"
               target="_bank"
               extraStyle="underline"
             />
             , and{" "}
             <LinkProject
               text="LPPM SINTESA"
-              link="\"
+              link="https://instagram.com/lppmsintesa"
               target="_bank"
               extraStyle="underline"
             />
             .
           </h2>
           <br />
-          <p>Reach me out on @feasypol, everywhere.</p>
+          <p>Reach me out on{" "}
+            <LinkProject
+              text="@feasypol"
+              link="https://instagram.com/lppmsintesa"
+              target="_bank"
+              extraStyle="underline"
+            />
+            {" "}everywhere.</p>
         </div>
         <Footer />
       </div>
