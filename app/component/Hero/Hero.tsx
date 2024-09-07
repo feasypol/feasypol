@@ -5,7 +5,7 @@ interface Blog {
   title: string;
   date: string;
   content: string[];
-  id: number;
+  id: string;
 }
 
 export default function Hero() {
