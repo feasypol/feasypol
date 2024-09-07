@@ -21,9 +21,9 @@ export default function Home() {
         </div>
         <div className="pt-6 text-2xl/6">
           <h1 className="">
-            <LinkProject text="easy!" link="https://instagram.com/feasypol" target="_blank" />
+            <LinkProject text="easy!" link="https://twitter.com/feasypol" target="_blank" />
             &nbsp;(dia) <br />
-            is a self-proclaimed artist. Focusing on graphic design and 3D art.
+            is a self-proclaimed artist. Currently learning graphic design and 3D art.
           </h1>
           <br />
           <p>
@@ -67,7 +67,7 @@ export default function Home() {
           <p>Reach me out on{" "}
             <LinkProject
               text="@feasypol"
-              link="https://instagram.com/lppmsintesa"
+              link="https://instagram.com/feasypol"
               target="_bank"
               extraStyle="underline"
             />
