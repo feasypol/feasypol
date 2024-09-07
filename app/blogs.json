@@ -1,0 +1,39 @@
+{
+"blogs": [
+            {
+            "id": 1,
+            "title": "Blog 1",
+            "content": ["Rumah adat yang satu ini berasal dari Pulau Sulawesi, yakni Tongkonan. Tongkonan sendiri memiliki arti tempat duduk, sesuai dengan fungsi awalnya yang memang sebagai tempat berkumpul para bangsawan Toraja untuk berdiskusi. Rumah Tongkonan terbuat dari kayu uru dan atapnya terbuat dari bambu.",
+            "Bentuk atapnya menyerupai perahu sebagai simbol bahwa nenek moyang masyarakat Toraja berlayar menggunakan perahu untuk sampai ke Sulawesi",
+            "Bentuk atapnya menyerupai perahu sebagai simbol bahwa nenek moyang masyarakat Toraja berlayar menggunakan perahu untuk sampai ke Sulawesi",
+            "Bentuk atapnya menyerupai perahu sebagai simbol bahwa nenek moyang masyarakat Toraja berlayar menggunakan perahu untuk sampai ke Sulawesi"
+            ],
+            "date": "2022-01-01"
+            },
+            {
+            "id": 2,
+            "title": "Blog 1",
+            "content": [],
+            "date": "2022-01-01"
+            },
+            {
+            "id": 3,
+            "title": "Blog 1",
+            "content": [],
+            "date": "2022-01-01"
+            },
+            {
+            "id": 4,
+            "title": "Blog 1",
+            "content": [],
+            "date": "2022-01-01"
+            },
+            {
+            "id": 5,
+            "title": "Blog 1",
+            "content": [],
+            "date": "2022-01-01"
+            }
+            
+        ]
+}
