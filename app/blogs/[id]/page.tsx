@@ -4,7 +4,7 @@ import Footer from "@/app/component/footer/Footer";
 import { metadata } from "@/app/layout";
 import dynamic from 'next/dynamic';
 
-const Imageweb = dynamic(() => import("@/app/component/imageweb/imageweb"), { ssr: false });
+const ImageWeb = dynamic(() => import("@/app/component/Imageweb/imageWeb"), { ssr: false });
 
 export default function Page(params: {params: {id: string}}) {
     const id = params.params.id;
@@ -19,7 +19,7 @@ export default function Page(params: {params: {id: string}}) {
         </h1>
         <p className="self-center mt-2 mb-8">{blogPost?.date}</p>
         <div className="flex w-full justify-center mb-8">
-        <Imageweb
+        <ImageWeb
             srcDesktop="/assets/cover_desktop.png"
             srcMobile="/assets/cover_mobile.png"
             alt="placeholder"
