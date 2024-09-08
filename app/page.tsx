@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <div className="pt-12 sm:max-lg:px-20 lg:px-52 flex w-full flex-col">
+      <div className="pt-12 px-20 lg:px-52 flex w-full flex-col">
         <Nav />
         <div className="bg-white border overflow-hidden">
           <Image
