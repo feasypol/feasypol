@@ -8,13 +8,15 @@ const ImageWeb = dynamic(() => import("@/app/component/Imageweb/imageWeb"), { ss
 export default function Page(params: {params: {id: string}}) {
     const id = params.params.id;
     const blogPost = blog.blogs.find((blog) => blog.id.toString() === id);
-    
+    metadata.title = blogPost?.title + " - feasypol";
+
     return (
-      <div className="p-12 lg:px-52 flex w-full flex-col text-xl">
+      <div className="grid gap-2 p-12 lg:px-52 flex w-full flex-col text-2xl">
         <Nav />
-        <h1 className="self-center underline font-bold mt-4">
+        <h1 className="text-center self-center underline font-bold mt-4">
           {blogPost?.title}
         </h1>
+<<<<<<< HEAD
         <p className="self-center mt-2 mb-8">{blogPost?.date}</p>
         <div className="flex w-full justify-center mb-8">
         <ImageWeb

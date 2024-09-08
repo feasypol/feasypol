@@ -14,17 +14,23 @@ export default function Hero() {
       <div className="pt-8" >
         {blogs.map((blog: Blog) => (
           <div
-            className="w-full flex justify-between text-xl mt-4"
+<<<<<<< HEAD
+            className="w-full flex justify-between text-base lg:text-xl mt-2"
+=======
+            className="w-full flex justify-between text-2xl/8 mt-4"
+>>>>>>> parent of fdc19c6 (smaller fonts)
             key={blog.id}
           >
-            <h2>
-              <Link
-                href={"/blogs/" + blog.id}
-                className="underline hover:bg-black hover:text-white duration-300"
-              >
-                {blog.title}
-              </Link>
-            </h2>
+            <div className="w-full pr-6">
+              <h2>
+                <Link
+                  href={"/blogs/" + blog.id}
+                  className="underline hover:bg-black hover:text-white duration-300"
+                >
+                  {blog.title}
+                </Link>
+              </h2>
+            </div>
             <p>{blog.date}</p>
           </div>
         ))}
