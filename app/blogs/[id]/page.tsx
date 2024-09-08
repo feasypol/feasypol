@@ -1,22 +1,9 @@
 import Nav from "@/app/component/navbar/Nav";
 import blog from "../../blogs.json";
 import Footer from "@/app/component/footer/Footer";
-import Image from "next/image";
-// import { Metadata } from "next";
+import dynamic from 'next/dynamic';
 
-// interface Page {
-//   params: {id: string};
-// }
-
-// export async function generateMetadata({params: {id: string}}): Promise<Metadata> {
-//   const id = params.params.id;
-//   const blogPost = blog.blogs.find((blog) => blog.id.toString() === id);
-
-//   return {
-//     title: blogPost.title,
-//     description: blogPost.body,
-//   }
-// }
+const ImageWeb = dynamic(() => import("@/app/component/Imageweb/imageWeb"), { ssr: false });
 
 export default function Page(params: {params: {id: string}}) {
     const id = params.params.id;
@@ -29,13 +16,15 @@ export default function Page(params: {params: {id: string}}) {
           {blogPost?.title}
         </h1>
         <p className="self-center mt-2 mb-8">{blogPost?.date}</p>
-        <div className="bg-white border overflow-hidden flex w-full justify-center mb-8">
-          <Image
-            src="/assets/maxresdefault.jpg"
+        <div className="flex w-full justify-center mb-8">
+        <ImageWeb
+            srcDesktop="/assets/cover_desktop.png"
+            srcMobile="/assets/cover_mobile.png"
             alt="placeholder"
-            width={2000}
-            height={1500}
-            className="h-64 w-full object-cover"
+            widthDesktop={1500}
+            heightDesktop={300}
+            widthMobile={500}
+            heightMobile={100}
           />
         </div>
         {blogPost?.content.map((content: string, index) => (

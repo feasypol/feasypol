@@ -1,8 +1,10 @@
 import Nav from "../component/navbar/Nav";
 import Hero from "../component/Hero/Hero";
 import Footer from "../component/footer/Footer";
-import Image from "next/image";
 import { Metadata } from "next";
+import dynamic from 'next/dynamic';
+
+const ImageWeb = dynamic(() => import("@/app/component/Imageweb/imageWeb"), { ssr: false });
 
 export const metadata: Metadata = {
   title: "blog",
@@ -13,15 +15,15 @@ export default function Page() {
     <>
       <div className="grid gap-2 p-12 lg:px-52 flex w-full flex-col">
         <Nav />
-        <div className="bg-white border overflow-hidden">
-          <Image
-            src="/assets/maxresdefault.jpg"
+          <ImageWeb
+            srcDesktop="/assets/cover_desktop.png"
+            srcMobile="/assets/cover_mobile.png"
             alt="placeholder"
-            width={2000}
-            height={1500}
-            className="h-64 w-full object-cover"
+            widthDesktop={1500}
+            heightDesktop={300}
+            widthMobile={500}
+            heightMobile={100}
           />
-        </div>
         <Hero />
         <Footer />
       </div>
