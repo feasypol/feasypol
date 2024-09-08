@@ -11,14 +11,15 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <div className="px-52 pt-12 flex w-full flex-col h-screen">
+      <div className="pt-12 sm:max-lg:px-20 lg:px-52 flex w-full flex-col">
         <Nav />
-        <div className="flex w-full justify-center">
+        <div className="bg-white border overflow-hidden">
           <Image
-            src="/assets/cover_dekstop.png"
+            src="/assets/maxresdefault.jpg"
             alt="placeholder"
-            width={1500}
-            height={300}
+            width={2000}
+            height={1500}
+            className="h-64 w-full object-cover"
           />
         </div>
         <Hero />

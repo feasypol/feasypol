@@ -19,18 +19,18 @@ export const metadata: Metadata = {
     template: "%s - feasypol"
   },
   description:
-    "easy! is a self-proclaimed artist. Occasionaly creating graphic design and 3D art.",
+    "easy! is a self-proclaimed artist. Actively doing photography, graphic design, and 3D art.",
   openGraph: {
     url: "https://feasypol.live",
     type: "website",
     title: "feasypol",
-    description: "easy! is a self-proclaimed artist. Occasionaly creating graphic design and 3D art.",
+    description: "easy! is a self-proclaimed artist. Actively doing photography, graphic design, and 3D art.",
     images: "/assets/opengraph-image.png"
   },
   twitter: {
     card: "summary_large_image",
     creator: "@feasypol",
-    description: "easy! is a self-proclaimed artist. Occasionaly creating graphic design and 3D art.",
+    description: "easy! is a self-proclaimed artist. Actively doing photography, graphic design, and 3D art.",
   }
 };
 

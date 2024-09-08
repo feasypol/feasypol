@@ -6,24 +6,22 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <div className="px-52 pt-12 flex w-full flex-col ">
+      <div className="pt-12 sm:max-lg:px-20 lg:px-52 flex w-full flex-col">
         <Nav />
-        <div className="flex w-full justify-center">
+        <div className="bg-white border overflow-hidden">
           <Image
-          src="/assets/cover_dekstop.png"
+          src="/assets/maxresdefault.jpg"
           alt="placeholder"
-          width={1500}
-          height={300}
-          className="w-full"
+          width={2000}
+          height={1500}
+          className="h-64 w-full object-cover"
           />
-
-          
         </div>
-        <div className="pt-6 text-2xl/8">
+        <div className="pt-6 text-2xl mb-2">
           <h1 className="">
             <LinkProject text="easy!" link="https://twitter.com/feasypol" target="_blank" />
             &nbsp;(dia) <br />
-            is a self-proclaimed artist. Occasionaly creating graphic design and 3D art.
+            is a self-proclaimed artist. Actively doing photography, graphic design, and 3D art.
           </h1>
           <br />
           <p>
