@@ -2,6 +2,11 @@ import Nav from "../component/navbar/Nav";
 import Hero from "../component/Hero/Hero";
 import Footer from "../component/footer/Footer";
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "blog",
+};
 
 export default function Page() {
   return (

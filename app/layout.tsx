@@ -14,9 +14,24 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "feasypol",
+  title: {
+    default: "feasypol",
+    template: "%s - feasypol"
+  },
   description:
     "easy! is a self-proclaimed artist. Occasionaly creating graphic design and 3D art.",
+  openGraph: {
+    url: "https://feasypol.live",
+    type: "website",
+    title: "feasypol",
+    description: "easy! is a self-proclaimed artist. Occasionaly creating graphic design and 3D art.",
+    images: "/assets/opengraph-image.png"
+  },
+  twitter: {
+    card: "summary_large_image",
+    creator: "@feasypol",
+    description: "easy! is a self-proclaimed artist. Occasionaly creating graphic design and 3D art.",
+  }
 };
 
 export default function RootLayout({
