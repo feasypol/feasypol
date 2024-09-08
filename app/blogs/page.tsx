@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <div className="pt-12 sm:max-lg:px-20 lg:px-52 flex w-full flex-col">
+      <div className="grid gap-2 p-12 lg:px-52 flex w-full flex-col">
         <Nav />
         <div className="bg-white border overflow-hidden">
           <Image

@@ -11,16 +11,16 @@ interface Blog {
 export default function Hero() {
     const blogs  = blog.blogs;
     return (
-      <div className="pt-12" >
+      <div className="pt-8" >
         {blogs.map((blog: Blog) => (
           <div
-            className="w-full flex justify-between text-2xl/6 mt-4"
+            className="w-full flex justify-between text-2xl/8 mt-4"
             key={blog.id}
           >
             <h2>
               <Link
                 href={"/blogs/" + blog.id}
-                className="underline hover:bg-black hover:text-white duration-200"
+                className="underline hover:bg-black hover:text-white duration-300"
               >
                 {blog.title}
               </Link>
