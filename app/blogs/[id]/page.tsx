@@ -4,7 +4,7 @@ import Footer from "@/app/component/footer/Footer";
 import { metadata } from "@/app/layout";
 import dynamic from 'next/dynamic';
 
-const ImageWeb = dynamic(() => import("@/app/component/Imageweb/imageWeb"), { ssr: false });
+const ImageWeb = dynamic(() => import("@/app/component/ImageWeb/ImageWeb"), { ssr: false });
 
 export default function Page(params: {params: {id: string}}) {
     const id = params.params.id;

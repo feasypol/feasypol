@@ -3,7 +3,7 @@ import LinkProject from "./component/LinkProject/LinkProject";
 import Footer from "./component/footer/Footer";
 import dynamic from 'next/dynamic';
 
-const ImageWeb = dynamic(() => import('./component/Imageweb/imageWeb'), { ssr: false });
+const ImageWeb = dynamic(() => import("@/app/component/ImageWeb/ImageWeb"), { ssr: false });
 
 export default function Home() {
   return (
