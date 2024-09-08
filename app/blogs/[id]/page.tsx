@@ -1,7 +1,6 @@
 import Nav from "@/app/component/navbar/Nav";
 import blog from "../../blogs.json";
 import Footer from "@/app/component/footer/Footer";
-import Image from "next/image";
 import { metadata } from "@/app/layout";
 import ImageWeb from "@/app/component/imageweb/imageweb";
 

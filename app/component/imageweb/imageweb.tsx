@@ -34,12 +34,12 @@ export default function ImageWeb(props:ImageWeb) {
     useEffect(() => {
 
         if (width > 992) {
-            setSrcImage(srcImage=>  props.srcDesktop);
+            setSrcImage( props.srcDesktop);
             setHeightImage(props.heightDesktop);
             setWidthImage(props.widthDesktop);
 
         } else {
-          setSrcImage(srcImage =>props.srcMobile);
+          setSrcImage(props.srcMobile);
             setHeightImage(props.heightMobile);
             setWidthImage(props.widthMobile);
         }
@@ -51,8 +51,8 @@ export default function ImageWeb(props:ImageWeb) {
       <Image
         src={srcImage}
         alt="placeholder"
-        width={1500}
-        height={300}
+        width={widthImage}
+        height={heightImage}
       />
     </div>
   );
