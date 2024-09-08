@@ -8,7 +8,7 @@ const ImageWeb = dynamic(() => import("@/app/component/Imageweb/imageWeb"), { ss
 export default function Home() {
   return (
     <>
-      <div className="grid gap-2 p-12 lg:px-52 flex w-full flex-col">
+      <div className="gap-2 p-12 lg:px-52 flex w-full flex-col">
         <Nav />
           <ImageWeb
             srcDesktop="/assets/cover_desktop.png"
