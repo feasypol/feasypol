@@ -20,6 +20,16 @@ export const metadata: Metadata = {
   },
   description:
     "easy! is a self-proclaimed artist. Actively doing photography, graphic design, and 3D art.",
+  referrer: 'origin-when-cross-origin',
+  keywords: ['Next.js', 'React', 'JavaScript'],
+  authors: [{ name: 'Easy!' }, { name: 'Not', url: 'https://feasypol.live' }],
+  creator: 'feasypol',
+  publisher: 'feasypol',
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+    },
   openGraph: {
     url: "https://feasypol.live",
     type: "website",
@@ -29,8 +39,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
+    title: "feasypol",
     creator: "@feasypol",
     description: "easy! is a self-proclaimed artist. Actively doing photography, graphic design, and 3D art.",
+    images: "/assets/opengraph-image.png"
   }
 };
 

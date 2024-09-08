@@ -4,7 +4,7 @@ import Footer from "../component/footer/Footer";
 import { Metadata } from "next";
 import dynamic from 'next/dynamic';
 
-const ImageWeb = dynamic(() => import("@/app/component/Imageweb/ImageWeb"), { ssr: false });
+const Imageweb = dynamic(() => import("@/app/component/imageweb/imageweb"), { ssr: false });
 
 export const metadata: Metadata = {
   title: "blog",
@@ -15,7 +15,7 @@ export default function Page() {
     <>
       <div className="gap-2 p-12 lg:px-52 flex w-full flex-col">
         <Nav />
-          <ImageWeb
+          <Imageweb
             srcDesktop="/assets/cover_desktop.png"
             srcMobile="/assets/cover_mobile.png"
             alt="placeholder"
