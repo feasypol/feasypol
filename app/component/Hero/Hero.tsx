@@ -11,7 +11,7 @@ interface Blog {
 export default function Hero() {
     const blogs  = blog.blogs;
     return (
-      <div className="pt-8" >
+      <div className="pt-8 font-medium" >
         {blogs.map((blog: Blog) => (
           <div
             className="w-full flex justify-between text-base lg:text-xl mt-2"

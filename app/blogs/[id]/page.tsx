@@ -12,7 +12,7 @@ export default function Page(params: {params: {id: string}}) {
     metadata.title = blogPost?.title + " - feasypol";
 
     return (
-      <div className="gap-2 p-12 lg:px-52 flex w-full flex-col text-2xl">
+      <div className="p-10 lg:px-64 flex w-full flex-col text-xl">
         <Nav />
         <h1 className="text-center self-center underline font-bold mt-4">
           {blogPost?.title}
@@ -31,7 +31,7 @@ export default function Page(params: {params: {id: string}}) {
         </div>
         {blogPost?.content.map((content: string, index) => (
           <div key={index} >
-            <p className="">{content}</p>
+            <p className="text-base lg:text-xl font-medium">{content}</p>
             <br />
           </div>
         ))}

@@ -8,7 +8,7 @@ const ImageWeb = dynamic(() => import("@/app/component/Imageweb/Imageweb"), { ss
 export default function Home() {
   return (
     <>
-      <div className="gap-2 p-12 lg:px-52 flex w-full flex-col">
+      <div className="p-10 lg:px-64 flex w-full flex-col">
         <Nav />
           <ImageWeb
             srcDesktop="/assets/cover_desktop.png"
@@ -19,7 +19,7 @@ export default function Home() {
             widthMobile={500}
             heightMobile={100}
           />
-        <div className="pt-6 text-xl mb-2">
+        <div className="pt-8 text-xl/6 mb-2">
           <h1 className="">
             <LinkProject text="easy!" link="https://twitter.com/feasypol" target="_blank" />
             &nbsp;(dia) <br />
@@ -28,12 +28,10 @@ export default function Home() {
           <br />
           <p>
             Occasionally writing{" "}
-            <LinkProject text="poems" link="https://instagram.com/sajakmesin" target="_blank" />. Playing
+            <LinkProject text="poems" link="https://instagram.com/sajakmesin" target="_blank" />, playing
             with&nbsp;
             <LinkProject text="codes" link="https://github.com/feasypol" target="_blank" /> on the side.{" "}
-            <br /> Their interest are community service, advocacy, inclusivity,
-            and journalism. Would like to spend time to learn something new,
-            everyday.
+            <br /> Their interest are community service, advocacy, inclusivity, and journalism. Would like to spend time to learn something new, everyday.
           </p>
           <br />
           <p>Based in Yogyakarta, Indonesia.</p>

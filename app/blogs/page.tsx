@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <div className="gap-2 p-12 lg:px-52 flex w-full flex-col">
+      <div className="p-10 lg:px-64 flex w-full flex-col">
         <Nav />
           <ImageWeb
             srcDesktop="/assets/cover_desktop.png"
