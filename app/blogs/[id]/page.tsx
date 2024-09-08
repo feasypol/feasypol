@@ -23,13 +23,13 @@ export default function Page(params: {params: {id: string}}) {
     const blogPost = blog.blogs.find((blog) => blog.id.toString() === id);
     
     return (
-      <div className="grid gap-2 p-12 lg:px-52 flex w-full flex-col text-2xl">
+      <div className="p-12 lg:px-52 flex w-full flex-col text-xl">
         <Nav />
         <h1 className="self-center underline font-bold mt-4">
           {blogPost?.title}
         </h1>
-        <p className="self-center mt-2 mb-9">{blogPost?.date}</p>
-        <div className="bg-white border overflow-hidden justify-center mb-9">
+        <p className="self-center mt-2 mb-8">{blogPost?.date}</p>
+        <div className="bg-white border overflow-hidden flex w-full justify-center mb-8">
           <Image
             src="/assets/maxresdefault.jpg"
             alt="placeholder"

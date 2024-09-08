@@ -14,7 +14,7 @@ export default function Hero() {
       <div className="pt-8" >
         {blogs.map((blog: Blog) => (
           <div
-            className="w-full flex justify-between text-2xl/8 mt-4"
+            className="w-full flex justify-between text-xl mt-4"
             key={blog.id}
           >
             <h2>
