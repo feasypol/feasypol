@@ -2,40 +2,30 @@ import Nav from "@/app/component/navbar/Nav";
 import blog from "../../blogs.json";
 import Footer from "@/app/component/footer/Footer";
 import Image from "next/image";
-// import { Metadata } from "next";
-
-// interface Page {
-//   params: {id: string};
-// }
-
-// export async function generateMetadata({params: {id: string}}): Promise<Metadata> {
-//   const id = params.params.id;
-//   const blogPost = blog.blogs.find((blog) => blog.id.toString() === id);
-
-//   return {
-//     title: blogPost.title,
-//     description: blogPost.body,
-//   }
-// }
+import { metadata } from "@/app/layout";
+import ImageWeb from "@/app/component/imageweb/imageweb";
 
 export default function Page(params: {params: {id: string}}) {
     const id = params.params.id;
     const blogPost = blog.blogs.find((blog) => blog.id.toString() === id);
-    
+    metadata.title = blogPost?.title + " - feasypol";
+
     return (
       <div className="p-12 lg:px-52 flex w-full flex-col text-xl">
         <Nav />
-        <h1 className="self-center underline font-bold mt-4">
+        <h1 className="text-center self-center underline font-bold mt-4">
           {blogPost?.title}
         </h1>
         <p className="self-center mt-2 mb-8">{blogPost?.date}</p>
-        <div className="bg-white border overflow-hidden flex w-full justify-center mb-8">
-          <Image
-            src="/assets/maxresdefault.jpg"
-            alt="placeholder"
-            width={2000}
-            height={1500}
-            className="h-64 w-full object-cover"
+        <div className="flex w-full justify-center mb-8">
+          <ImageWeb 
+          srcDesktop="/assets/cover_desktop.png" 
+          srcMobile="/assets/cover_mobile.png" 
+          alt="placeholder"
+          widthDesktop={1500}
+          heightDesktop={300}
+          widthMobile={500}
+          heightMobile={100}
           />
         </div>
         {blogPost?.content.map((content: string, index) => (

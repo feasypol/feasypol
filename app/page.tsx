@@ -1,21 +1,23 @@
 import Nav from "./component/navbar/Nav";
 import LinkProject from "./component/LinkProject/LinkProject";
 import Footer from "./component/footer/Footer";
-import Image from "next/image";
+import ImageWeb from "./component/imageweb/imageweb";
 
 export default function Home() {
   return (
     <>
       <div className="grid gap-2 p-12 lg:px-52 flex w-full flex-col">
         <Nav />
-        <div className="bg-white border overflow-hidden">
-          <Image
-          src="/assets/maxresdefault.jpg"
+        <div>
+          <ImageWeb 
+          srcDesktop="/assets/cover_desktop.png" 
+          srcMobile="/assets/cover_mobile.png" 
           alt="placeholder"
-          width={2000}
-          height={1500}
-          className="h-64 w-full object-cover"
-          />
+          widthDesktop={1500}
+          heightDesktop={300}
+          widthMobile={500}
+          heightMobile={100}
+        />
         </div>
         <div className="pt-6 text-xl mb-2">
           <h1 className="">
