@@ -10,11 +10,12 @@ export default function Page(params: {params: {id: string}}) {
     metadata.title = blogPost?.title + " - feasypol";
 
     return (
-      <div className="p-12 lg:px-52 flex w-full flex-col text-xl">
+      <div className="grid gap-2 p-12 lg:px-52 flex w-full flex-col text-2xl">
         <Nav />
         <h1 className="text-center self-center underline font-bold mt-4">
           {blogPost?.title}
         </h1>
+<<<<<<< HEAD
         <p className="self-center mt-2 mb-8">{blogPost?.date}</p>
         <div className="flex w-full justify-center mb-8">
           <ImageWeb 
@@ -25,6 +26,16 @@ export default function Page(params: {params: {id: string}}) {
           heightDesktop={300}
           widthMobile={500}
           heightMobile={100}
+=======
+        <p className="self-center mt-2 mb-9">{blogPost?.date}</p>
+        <div className="bg-white border overflow-hidden justify-center mb-9">
+          <Image
+            src="/assets/maxresdefault.jpg"
+            alt="placeholder"
+            width={2000}
+            height={1500}
+            className="h-64 w-full object-cover"
+>>>>>>> parent of fdc19c6 (smaller fonts)
           />
         </div>
         {blogPost?.content.map((content: string, index) => (

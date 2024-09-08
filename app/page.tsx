@@ -19,7 +19,7 @@ export default function Home() {
           heightMobile={100}
         />
         </div>
-        <div className="pt-6 text-xl mb-2">
+        <div className="pt-6 text-2xl mb-2">
           <h1 className="">
             <LinkProject text="easy!" link="https://twitter.com/feasypol" target="_blank" />
             &nbsp;(dia) <br />
