@@ -3,6 +3,7 @@ import Hero from "../component/Hero/Hero";
 import Footer from "../component/footer/Footer";
 import { Metadata } from "next";
 import dynamic from 'next/dynamic';
+import Copyright from "../component/Copyright/copyright";
 
 const ImageWeb = dynamic(() => import("@/app/component/Imageweb/Imageweb"), { ssr: false });
 
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <div className="p-10 lg:px-64 flex w-full flex-col">
+      <div className="p-12 lg:px-64 flex w-full flex-col">
         <Nav />
           <ImageWeb
             srcDesktop="/assets/cover_desktop.png"
@@ -26,6 +27,7 @@ export default function Page() {
           />
         <Hero />
         <Footer />
+        <Copyright />
       </div>
     </>
   );

@@ -3,6 +3,7 @@ import blog from "../../blogs.json";
 import Footer from "@/app/component/footer/Footer";
 import { metadata } from "@/app/layout";
 import dynamic from 'next/dynamic';
+import Copyright from "@/app/component/Copyright/copyright";
 
 const ImageWeb = dynamic(() => import("@/app/component/Imageweb/Imageweb"), { ssr: false });
 
@@ -37,6 +38,7 @@ export default function Page(params: {params: {id: string}}) {
         ))}
 
         <Footer />
+        <Copyright />
       </div>
     );
     }
