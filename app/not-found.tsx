@@ -1,6 +1,5 @@
 import { Metadata } from "next";
 import LinkProject from "./component/LinkProject/LinkProject"
-import Copyright from "./component/Copyright/copyright";
 
 export const metadata: Metadata = {
     title: "404",
