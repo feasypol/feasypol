@@ -14,10 +14,10 @@ export default function Hero() {
       <div className="pt-8 font-medium" >
         {blogs.map((blog: Blog) => (
           <div
-            className="w-full flex justify-between text-base lg:text-xl mt-2"
+            className="w-full flex justify-between text-base lg:text-xl mt-4"
             key={blog.id}
           >
-            <div className="w-full pr-6">
+            <div>
               <h2>
                 <Link
                   href={"/blogs/" + blog.id}
@@ -27,7 +27,7 @@ export default function Hero() {
                 </Link>
               </h2>
             </div>
-            <p>{blog.date}</p>
+            <p className="min-w-32 pl-8">{blog.date}</p>
           </div>
         ))}
       </div>
