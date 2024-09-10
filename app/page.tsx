@@ -9,7 +9,7 @@ const ImageWeb = dynamic(() => import("@/app/component/Imageweb/Imageweb"), { ss
 export default function Home() {
   return (
     <>
-      <div className="p-10 lg:px-56 flex w-full flex-col">
+      <div className="p-8 lg:px-48 flex w-full flex-col">
         <Nav />
           <ImageWeb
             srcDesktop="/assets/cover_desktop.png"
@@ -20,7 +20,7 @@ export default function Home() {
             widthMobile={500}
             heightMobile={100}
           />
-        <div className="pt-8 lg:pt-4 text-xl/6 mb-4">
+        <div className="pt-8 lg:pt-4 text-xl/6 mb-2">
           <h1 className="">
             <LinkProject text="easy!" link="https://twitter.com/feasypol" target="_blank" />
             &nbsp;(dia) <br />
