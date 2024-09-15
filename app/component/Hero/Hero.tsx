@@ -21,13 +21,13 @@ export default function Hero() {
               <h2>
                 <Link
                   href={"/blogs/" + blog.id}
-                  className="underline hover:bg-black hover:text-white duration-300"
+                  className="overflow-hidden underline hover:bg-black hover:text-white duration-300"
                 >
                   {blog.title}
                 </Link>
               </h2>
             </div>
-            <p className="min-w-32 pl-8">{blog.date}</p>
+            <p className="min-w-fit pl-8">{blog.date}</p>
           </div>
         ))}
       </div>
