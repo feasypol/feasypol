@@ -15,6 +15,13 @@
             "date": "2024-08-12"
             },
             {
+            "id": "pulang",
+            "title": "Pulang",
+            "content": ["Artikel ini sedang dalam proses pemindahan."
+            ],
+            "date": "2024-07-28"
+            },
+            {
             "id": "bayangkan-jika-kita-tidak-menyerah",
             "title": "Bayangkan jika kita tidak menyerah",
             "content": ["Artikel ini sedang dalam proses pemindahan."
@@ -103,22 +110,35 @@
             "title": "I don't often feel like this",
             "content": ["Artikel ini sedang dalam proses pemindahan."
             ],
-            "date": "2022-02-16"
+            "date": "2022-02-16",
+            "image": "/assets/chocx.jpg",
+            "imageCaption": "KitKat but I ate the middle part first",
+            "imageAlt": "An image of KitKat with hollowed with bite shaped in the middle"
             },
             {
             "id": "certified-dumbest-person-alive",
             "title": "Certified dumbest person alive",
-            "content": ["Artikel ini sedang dalam proses pemindahan."
+            "content": ["This girl can’t get out of my head smh.",
+            "Been a year bro like it’s been a year. Call me foolish but this is my second attempt at a relationship. Which, idk?? Going smoothly?? Now I’m afraid I might fall in the toilet, smh. We are having discord calls almost every night. Talking about random things, huh. Is she into me too? I mean we are saying good morning every single day i guess that’s a huge sign and im blind. Yesterday we made a fruit tier list and she doesn’t like dragonfruit wtf?? Weirdo?? Well I mean the barney stuff is funny asdjaljsdkl.",
+            "We watched bee the movie tonight after i said “ntar malem nobar bee aja gausah ngerjain mtk”. Twas two days ago tho. Im lazy to do the stupid math assignment. After all done, here we are tonight. This is where I feel dumb, when I just recognize that she’s into me like, from when? I waited way too long. Kinda want to make a move first, but we close like this barely a month or so. I remember she was having blushes in English class when we were doing the roleplay together. That should be my “this is it”, HAHAHAHA."
             ],
-            "date": "2022-01-24"
+            "date": "2022-01-25",
+            "image": "/assets/call.jpg",
+            "imageCaption": "Discord call few days ago",
+            "imageAlt": "An image of discord call, watching a scene from 'Bee the movie'"
             },
             {
             "id": "more-intro-more-fun-to-do",
             "title": "More intro, more fun to do",
-            "content": ["Artikel ini sedang dalam proses pemindahan."
+            "content": ["Consider this blog as my longer ‘about’ page.",
+            "Easy is the newest iteration of personal internet persona. Derived from my real life nickname, ‘Iz’. I thought it rhymes with ‘feasy’ – not so popular – slang to shorten “f*cking easy”. Honestly, quite an irony and funny. Considering how my blogs contain mostly rants and my worries. Might change it again later, but that’s okay I live with it for now.",
+            "Name, done. What else? Talk about my interest? Briefly mentioned in my homepage, yes I’m very into community service. I love volunteering in my local area. Because I get to talk and interact with locals here. Although listening to their problems makes me mad about this country more and more, lol. Then there comes my second interest, advocacy. As a student from the political science faculty, this is our regular morning coffee. However, some still overlook marginalized people in their life because things are often taken as granted. I mainly focused on people with disabilities as my concern. In a country that still sees disability as a symptom and needs to be treated medically, advocacy is a way for them to be recognized more as a person. Who has human rights, just like all of us.",
+            "I hope this blog can be my own platform to speak more about my interests, without worrying about censorship. Blogs will be written either in English or Bahasa Indonesia. Won’t bother to translate them respectively, I use whatever fits the narrative. Welcome and enjoy your read, I guess?","Oh btw you might notice if I use Yyo pic a lot. She's my original character, first ever brought to live by closest friend of mine. Might wrote something about her later."
             ],
-            "date": "2021-11-01"
+            "date": "XXXX-XX-XX",
+            "image": "/assets/yyo.png",
+            "imageCaption": "Yyo icon by @aikopedia",
+            "imageAlt": "An image of character named Yyo with dark purple hair, red tee with dark outer, purple background"
             }
-            
-        ]
+        ]   
 }
