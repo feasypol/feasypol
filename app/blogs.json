@@ -5,7 +5,7 @@
             "title": "Suara ini semakin lantang",
             "content": ["Artikel ini sedang dalam proses pemindahan."
             ],
-            "date": "2024-09-01"
+            "date": "2024-09-16"
             },
             {
             "id": "laze-and-lazy-august",
@@ -45,23 +45,45 @@
             {
             "id": "evaluasi-akhir-periode",
             "title": "Evaluasi akhir periode",
-            "content": ["Artikel ini sedang dalam proses pemindahan."
+            "content": ["Kepala ini tak sanggup menahan lagi. 2023, tahun terpanjang pasca pandemi. Tahun pertama, hidup di kota dengan masalah sampah yang tak berhenti. Sebagian otakku perlu diamputasi. Ginjalku dijual seharga diri. Mengecek jumlah kata sebagai bentuk afirmasi. Kegilaan ini datang hari ke hari.",
+            "Aku hanya ingin tidur dengan tenang. Kuartal pertama meminum obat penenang. Kelulusan tanpa dihadiri pemenang. Melepas dirimu walau telah berjuang. Tidak beruntung, kaki yang buntung. Lolos tes masuk tapi tetap murung. Berpikir masih hidup di dalam tempurung. Berharap ingin maju tapi ku terkurung.",
+            "Tenggat waktu terlewat lima detik. Cepat atau lambat, akan ku masuk bilik. Suara, keranda, peti berlapis emas milik sang mulia. Bangkit ku dari kasur, pusing gejala anemia. Kembali ke tidur, semoga yang selanjutnya tak lebih gila."
             ],
-            "date": "2023-12-31"
+            "date": "2023-12-31",
+            "image": "/assets/chocx.jpg",
+            "imageCaption": "KitKat but I ate the middle part first",
+            "imageAlt": "An image of KitKat with hollowed with bite shaped in the middle"
+            },
+            {
+            "id": "about-a-year-ago",
+            "title": "About a year ago",
+            "content": ["saw someone celebrating their relationship anniversary today. like, actually have been through for a year. not sum randos teenagers celebrating every month. do i envy them? yes ofc. remembering how we ended all of that stuff, for a reason that i don't wanna disclose to anyone. did you know the reason why we broke up? i mean, i hope it was obvious. tho i can totally understand if you weren't getting it. we had some fights and problems yes. but it's all normal as long as it was not heavy on one side. well, i felt like it was. there was a time when you hurt more than me. and i saw it myself. because you are too obvious."
+            ],
+            "date": "2023-10-01",
+            "image": "/assets/chocx.jpg",
+            "imageCaption": "KitKat but I ate the middle part first",
+            "imageAlt": "An image of KitKat with hollowed with bite shaped in the middle"
             },
             {
             "id": "college-life",
             "title": "College life",
-            "content": ["Artikel ini sedang dalam proses pemindahan."
+            "content": ["writing this in the middle of my paper homeworks. i know, it's a bit unproductive since this is not what i'm supposed to do. when my time could be used for something better. yet here we go.",
+            "two months ago we were having fun doing the ospek thingy and then next week uts is coming. can't believe how time flies faster than I thought. catch up is what I'm doing most for the last couple of months.",
+            "is it normal to. questions i don't know the answer to. it's funny, yeah that i chose it by myself. ofc not a thought would be smth like this. but i actually started to understand some of them in the last couple of weeks and i found it quite interesting.",
+            "there's voices in my head every now and then. i exploited stress so often that it doesn't work for me anymore. acknowledged it, but not scared of the consequences. stress stops functioning. i had to fabricate fake tension.",
+            "ok fuck. that’s enough. i need to go back to writing my work."
             ],
-            "date": "2023-08-08"
+            "date": "2023-09-30",
+            "image": "/assets/chocx.jpg",
+            "imageCaption": "KitKat but I ate the middle part first",
+            "imageAlt": "An image of KitKat with hollowed with bite shaped in the middle"
             },
             {
             "id": "selamat-kan",
             "title": "Selamat, kan",
             "content": ["Artikel ini sedang dalam proses pemindahan."
             ],
-            "date": "2023-06-31"
+            "date": "2023-06-14"
             },
             {
             "id": "apa-ada-siapa",
@@ -99,11 +121,16 @@
             "date": "2022-06-06"
             },
             {
-            "id": "right-you-were-right",
-            "title": "Right, you were right",
-            "content": ["Artikel ini sedang dalam proses pemindahan."
+            "id": "nightmare",
+            "title": "Nightmare",
+            "content": ["im afraid to sleep at night sometimes. i alwats paralyzed. felt like im still aware with my surroundings in my dream.",
+            "it's been a week now. i always had nightmare in my early stage of sleep.",
+            "some might say 'ketindihan', i probably am. dark creature, with long hair. female probably, like the usual kuntilanak. holding me down on my bed. can't go anywhere, can't move at all. they are heavy. i can't even speak. i don't know if i were in a dream or real life. i am going insane."
             ],
-            "date": "2022-04-05"
+            "date": "2022-03-30",
+            "image": "/assets/chocx.jpg",
+            "imageCaption": "KitKat but I ate the middle part first",
+            "imageAlt": "An image of KitKat with hollowed with bite shaped in the middle"
             },
             {
             "id": "i-dont-often-feel-like-this",
@@ -123,6 +150,144 @@
             "We watched bee the movie tonight after i said “ntar malem nobar bee aja gausah ngerjain mtk”. Twas two days ago tho. Im lazy to do the stupid math assignment. After all done, here we are tonight. This is where I feel dumb, when I just recognize that she’s into me like, from when? I waited way too long. Kinda want to make a move first, but we close like this barely a month or so. I remember she was having blushes in English class when we were doing the roleplay together. That should be my “this is it”, HAHAHAHA."
             ],
             "date": "2022-01-25",
+            "image": "/assets/call.jpg",
+            "imageCaption": "Discord call few days ago",
+            "imageAlt": "An image of discord call, watching a scene from 'Bee the movie'"
+            },
+            {
+            "id": "merry-xmas-pt-2",
+            "title": "Merry xmas pt. 2",
+            "content": ["Hi,",
+            "Been a while since we actually talked to each other. I noticed you ignored me (well technically both of us pretend not to see) when we had to bring back school books. Hope you had a nice year!",
+            "You said it yourself last year that we couldn't talk on the phone. Was kinda disappointed a little at that time. Can we meet somewhere before the year ends? Let's have a conversation about random sh*t like what we used to do. What have you been up to? You gotta catch me up with your stories throughout the year. Your name showed up multiple times when I worked on Karmuka. Some nice achievements you had there. Definitely not like me. That part of me is still me. Afraid of competition. But hey, I just got my fancy driving licence lol. And obviously my own national ID. Which means I am a legal citizen now. Gonna commit violence (jk).",
+            "Send me a message via WhatsApp, if you accept my offer. You didn't tell me you changed your phone number. That's rude, honestly. I never actually blocked you there anyway. Didn't expect you to take anything seriously. Last year, you haven't changed. Apparently still the same you. (redacted). I don't understand what you've gone through. Last year's email was me being a coward and didn't wanna accept what happened. (redacted). From the bottom of my heart, I'm really sorry mate.",
+            "This is my last last email for you. If you really think we can't go back to normal again, then thank you for literally everything, too. You thought you were screwed, but kid you not. I was about to say the same thing that time. Both of us are messy. Can't chat everyday is totally fine. I never asked for that. Just please try to check up on each other frequently. Or hit me up when you wanna play games together.",
+            "That being said, I wanna say that you are really cool. Believe in yourself that you can do everything. Don't burden yourself for a simple mistake. And of course, do not point anything on you. That is not a great idea. You always did it, bruh.",
+            "Merry Xmas, Iz"
+            ],
+            "date": "2021-12-24",
+            "image": "/assets/call.jpg",
+            "imageCaption": "Discord call few days ago",
+            "imageAlt": "An image of discord call, watching a scene from 'Bee the movie'"
+            },
+            {
+            "id": "porcupine",
+            "title": "Porcupine",
+            "content": ["sh*t. you won the bet. i still pretty much don't care. now i'm afraid the thing won't stop. any help? no? is this that point in time, again? what should I worry about then? you can't blame everything on me and i couldn't do it otherwise to you. we are in this together, remember?",
+            "why are we arguing? i'm awake, i'm aware. we talked about this last night. you started this and gotta end it yourself. i'm here because of you. if you wanna continue this conversation, this is not the safe place. i don't even trust half of them who read this. including you.",
+            "f*ck you, eh?",
+            "last week, friend killed a cat. crashed, while avoiding it. we were supposed to meet that day. i know i shouldn't believe in this idea, but my choice is in the best interest for everyone. if i avoid you, that means i care about you. time to seal myself again, no one hurts anymore because of me."
+            ],
+            "date": "2021-12-12",
+            "image": "/assets/call.jpg",
+            "imageCaption": "Discord call few days ago",
+            "imageAlt": "An image of discord call, watching a scene from 'Bee the movie'"
+            },
+            {
+            "id": "you",
+            "title": "You?",
+            "content": ["im a terrible person. the reason why i dont wanna too engaged with people anymore is because im a bad influence. yes, i could talk everyday and then gone silent for a month or more. i currently did it.",
+            "i will never win the game. i started last, i dont have any to offer. hey what do you think about this? you have an idea? i know i dont have a chance. i dont get one. if i did then i missed it. should i bail for some more? i guess not. i wont survive. its like i got nothing from this. i mean i understand nothing. shit. idk what i wrote. i supposed to sleep early like what i said to my friend. this note talk much about me. everything's about me and i hate it. i, if there is another word.",
+            "i sleep early cus i dont wanna talk w you past the curfew. i'm exhausted listening to things i never need to know. i created you to help me find ideas. did you forget now?",
+            "talk to myself more often. now i call them 'you'. yes i made you back then. what i am anxious about actually?"
+            ],
+            "date": "2021-11-07",
+            "image": "/assets/call.jpg",
+            "imageCaption": "Discord call few days ago",
+            "imageAlt": "An image of discord call, watching a scene from 'Bee the movie'"
+            },
+            {
+            "id": "lamunan-1b",
+            "title": "Lamunan 1b",
+            "content": ["[Sun Oct 24 10:24:00 2021 UTC]",
+            "‘ten twenty four, ten twenty four.’ her whisper woke me up. how do i know? she has the same vocal identity. ‘hey, have we ever met before?’ wonder me. ‘yeeeaap! can you guess it when, (redacted)?’ answer her. (redacted)? why she called me (redacted)?– oh, that's actually make sense. she was younger, way younger than our first rendezvous. meanwhile, I literally look like an old hobo. tried to respond to her question, i said ‘last thursday? if i remember correctly.’ ‘WAIT... ARE YOU SURE???’ said her with an exaggerated response.",
+            "‘been waiting for you for awhile, mister.’ add her. ‘wdym? what does this even mean?’ ‘i know who you are. at least i knew.’ ‘can you explain to me, unironically, like i'm five here?’ i argue. she started crying. at least that's what i could guess… i don't know what to do. I mean, always has been. i always thought they should let it flow as a coping mechanism. i approached, now i sat beside her. i patted her head and said ‘really sorry, that was rude.’ as my apology.",
+            "‘issokay, i didn't cried because of you.’ ‘keep wonder, questions.’ ‘that is you that i know.’ she clarified. that, while she also transformed. being older, back into who i thought i knew. ‘who are you anyway? looks so familiar but i couldn't remember your name.’ i shamelessly ask. ‘perhaps, i am you (?)’ and that was last line that i could remember before i passed out."
+            ],
+            "date": "2021-10-21",
+            "image": "/assets/call.jpg",
+            "imageCaption": "Discord call few days ago",
+            "imageAlt": "An image of discord call, watching a scene from 'Bee the movie'"
+            },
+            {
+            "id": "lamunan-1a",
+            "title": "Lamunan 1a",
+            "content": ["[Thu Oct 21 21:21:21 2021 UTC]",
+            "had a small talk with friend of mine. couldn't remember her name, but i saw familiar face. it was like in a cafe, nowhere.",
+            "i asked her where are we, she giggled and said 'we are beyond time. welcome to the rooftop.' couldn't believe it, i pinched my own hand. unless my neuron system messed it up. twas felt real.",
+            "she asked me how was my day. i said 'don't know what you mean. i stopped thinking that time is linear. you should specify when.' small voice came out from her. 'interesting' she said, 'do you believe in something?' she pushed me more. 'not with divinity, it's dumb.' that's my eager respond. 'appreciate you said that, but not what i meant.', 'do you believe your own idea? yourself?' ask her. 'i guess so, but why is it matter?' ask myself. 'bear with it. might be useful later.' state her.",
+            "got no chance for more elaborate. sun rises not from east, nor west. pretty sure it was from northwest. had a goosebump for a sec there. kept wondering whether this sorta joke or nah. she smiled and said 'time's over. see you after.'"
+            ],
+            "date": "2021-10-21",
+            "image": "/assets/call.jpg",
+            "imageCaption": "Discord call few days ago",
+            "imageAlt": "An image of discord call, watching a scene from 'Bee the movie'"
+            },
+            {
+            "id": "messages-not-delivered-pt-3",
+            "title": "Messages not delivered pt. 3",
+            "content": ["[01/09/21] welcome to september. didn't realize if i wrote an unimportant and stupid mail for almost three months. i will certainly cringing over this mail weeks or months later. aight, well today, nothing big actually happened. i just felt envy with my friends progression. like how umm... if i tell you this then i will doxed this person. basically they did well. meanwhile me, still grinding for my ideas to be fully implemented. i'm taking sociology mayor next-next year. was bout to choose psychology because i wanna know more about human emotions, but then i thought what i understand right now is pretty much subjective. and i don't like going technical to diagnose someone. it's a dead end right there. hence i be better at socio. i guess i'm more comfort with learning people in general.",
+            "[13/09/21] F*CK. BROKE MY HEART TONIGHT. duh it's been a while since i've felt this way. quite numb. and funny how someone like me is overly sensitive now. i believe i can't force anything to be what i want. it's understandable. think i might puke tho.",
+            "it's 3 am. couldn't sleep. still sad while also excited. because i have to attend offline school for the first time today, yay! prolly i will be lonely in a class for a moment. need an adaptation. hope everything goes well. i wrote my post reaction later.",
+            "back from school. it's lame. boring. but sure it does feel like an antidepressant. it relieves my stress for short amount of time. then here i am, back home, empty again.",
+            "[15/09/21] broke my phone during presentation in front of my class today. dude, i can't believe i'm that nervous talking with much larger audience. is it because i knew their name, but i don't know them. yea i mean that is possible. i don't know who to talk to in my class. but hey, like i said days before. i feel more comfortable to talk with strangers now, lol.",
+            "[27/09/21] i'm glad for folks that managed to had a better year than the last one. for me, 2021 is much worse than i previously thought. i'm sure no one knows when i skipped my class for a whole month. how many tendencies and how often i tried to kms myself or gone. which is understandable because i told no one. perhaps cus i knew they'll never come back. n still couldn't get around w familiar names familiar faces. it's so empty. i miss my braincells too. idk where they went but i already felt back to monke myself. i believe nothing will change for Q4 this year. tho been a quite ride. i enjoy every stunt i made for entire year. some ridiculously stupid and took a wrong turn. some i said quite fun and delicate. i hope none actually mad to me. and i really wanna stop ranting in my story. this is the last, i promise.",
+            "Godspeed, Iz"
+            ],
+            "date": "2021-09-27",
+            "image": "/assets/call.jpg",
+            "imageCaption": "Discord call few days ago",
+            "imageAlt": "An image of discord call, watching a scene from 'Bee the movie'"
+            },
+            {
+            "id": "when-you-met-thats-farewell",
+            "title": "When you met, that's farewell",
+            "content": ["People come and go. If you haven't noticed it yet. I think we all felt that moment where we can't let someone go because they were so valuable to us. I– am that person when I wrote this article. Don't know who to talk to, so I just wrote this anyway. This is supposed to be my personal diary, but I thought I could publish it somewhere just to express myself.",
+            "It's not about you. it's never about you. it's all about me, myself. a singular entity, lies between the unbelievablely huge universe."
+            ],
+            "date": "2021-09-05",
+            "image": "/assets/call.jpg",
+            "imageCaption": "Discord call few days ago",
+            "imageAlt": "An image of discord call, watching a scene from 'Bee the movie'"
+            },
+            {
+            "id": "messages-not-delivered-pt-2",
+            "title": "Messages not delivered pt. 2",
+            "content": ["[14/08/21] Everything has cooled down a lil bit now. Glad I got to do something that helped my mind recover. Don't know if it is because I was forced to talk to several people, it sure brings my sanity back time after time. Oh, I added timestamps for this email so you can understand the development. All kinds of advice and gibberish are like I'm talking to myself. Not that important for you to understand it, but just letting you know the way I'm thinking. Because I know this whole mail is everything about me. Like I said before, you are free to respond with something or nothing at all. (redacted).",
+            "[27/08/21] i remember few years ago when we were at the mall, around the book section (?) where you talked to strangers like you knew them before. i was amazed with that level of social skill. but now, hey, i think i able to do the same thing. the problem is just there is no one that listen to me. quite sad actually. and also when i'm kinda talkative to people i felt comfort with, they just left me. maybe i am that annoying for them, lol. well, glad i found a way to express my feelings through art. bunch of them will never be posted online cus too personal. but i'm happy i can get something out of my chest.",
+            "[30/08/21] had a convo with friend of mine today. if i kept referring friend in this email, that doesn't mean friend 'friend'. usually it's just a human who respond to my questions. the closest one probably as 'school friend'. ok, my convo was about 'where are we going in the future?' and ended up talking about uni, what's your dream jobs, yada yada. how about you? do you have any plan for your future? the closest one probably uni. where you will be? what mayor you will choose? curious about you, tho. but you never have to answer these questions like any other questions in this mail. let it be rhetorical."
+            ],
+            "date": "2021-08-30",
+            "image": "/assets/call.jpg",
+            "imageCaption": "Discord call few days ago",
+            "imageAlt": "An image of discord call, watching a scene from 'Bee the movie'"
+            },
+            {
+            "id": "paused",
+            "title": "Paused",
+            "content": ["yeah, i knew. that's intended. in my scenario, you were supposed to clarify my misunderstanding. but you didn't respond to it or even read it. until you had to send me another message. that's either you are really exhausted that time or you found me annoying. hence you choosed to ignore.",
+            "i did test like this multiple times. remember when i joined call during exam. not my thing, i never cheat for a score because i never interested in it. that actually was my attempt to did something called 'asch experiment'. to study influence and conformity. i did doublespeak. and sometimes i make sarcasm to learn if they take my words literally or not. you know i'm from social class. if i couldn't learn from real 'classroom', i'll find another way to be able to do a social experiment.",
+            "i love experimenting non scientifically. it's fun and sometimes entertaining for myself. now that you know what i really do, try understand everything what i already did, retrospectively. and i believe you will perceive anything very different than you thought before."
+            ],
+            "date": "2021-08-29",
+            "image": "/assets/call.jpg",
+            "imageCaption": "Discord call few days ago",
+            "imageAlt": "An image of discord call, watching a scene from 'Bee the movie'"
+            },
+            {
+            "id": "messages-not-delivered-pt-1",
+            "title": "Messages not delivered pt. 1",
+            "content": ["[14/06/21] Hi, how are you? Hope you are doing good. I've been mentally blocked and unable to do almost anything for the last four months. So I decided to write this mail, perhaps I can clear some bits out of my mind.",
+            "We can't change the past, obviously, but we are still able to change how we perceive history. *ignore this nonsense please*",
+            "I don't think I have ever attempted to apologize for what I did since we broke up. If I forget that I already did, then this is the 2.0 version. Been feeling like Dory lately. You knew that, short term memory loss. I think this is like a withdrawal from something in the past. Don't know what is it.",
+            "[16/06/21] Alright, hey. I'm really sorry for everything. I admit that I was dumb, you name it. You might never forgive me and that is fine. But hey I have the right to say that I'm much better myself now. I realized the true reason that we broke up was, we had an unhealthy relationship and we were tired from it. I was actually glad about that decision. Well I am never ok with the 'farewell'. I mean, I'm glad we stopped there.. I couldn't imagine how bad that would be if it continued. I read stories from twitter, really unsettling. To be honest, that's one of the reasons that triggered me to write this mail.",
+            "Curious question tho, have you ever felt traumatized for the past? Like, got a PTSD when reading/listening to a similar story. If you felt that way, I'm really sorry. Not even my recent self understands I had to talk about that. Must've been hard, again I'm sorry.",
+            "(redacted)",
+            "[20/07/21] I wish even if we're not that close anymore, we still could be friends. But then I remember when you said that I always came only because I needed something from you. That was really on point, I would say. I agree with it. Since then, whenever I feel like I wanna talk about something with you, another part of myself always says 'mau taruh dimana itu muka' to me.",
+            "It's totally your choice to forgive me, or not. It's also your choice to respond to my mail or not. I don't mind it. Good luck with your current life. I saw you have an interest in doing TOEFL. Good luck with that.",
+            "Sorry for past bullsh*t that I could never fulfill. (redacted). Take care of yourself. Good luck with your future as well. Let's face the future in our own way and at our own pace. I'm honored, I met you that time. Thank you for the memories. I never lived with it anymore, but it was great. So again, from my deepest heart, thanks."
+            ],
+            "date": "2021-06-14",
             "image": "/assets/call.jpg",
             "imageCaption": "Discord call few days ago",
             "imageAlt": "An image of discord call, watching a scene from 'Bee the movie'"
