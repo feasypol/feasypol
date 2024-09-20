@@ -4,6 +4,7 @@ import Footer from "@/app/component/footer/Footer";
 import { metadata } from "@/app/layout";
 import Copyright from "@/app/component/Copyright/copyright";
 import Image from "next/image";
+import ImageWeb from "@/app/component/Imageweb/Imageweb";
 
 export default function Page(params: {params: {id: string}}) {
     const id = params.params.id;
@@ -19,13 +20,14 @@ export default function Page(params: {params: {id: string}}) {
         <p className="self-center mt-2 mb-8">{blogPost?.date}</p>
         <div className="w-full lg:w-2/3 self-center mb-8">
         {blogPost?.image && (
-          <Image
-            src={blogPost.image}
+          <ImageWeb
+            srcDesktop={blogPost.image}
+            srcMobile={blogPost.image}
             alt={blogPost.imageAlt}
-            title={blogPost.imageAlt}
-            width={1000}
-            height={750}
-          />
+            widthDesktop={1500}
+            heightDesktop={300}
+            widthMobile={500}
+            heightMobile={100}/>
         )}
           {blogPost?.imageCaption && (
             <p className="text-sm text-gray-500 mt-2 text-center">

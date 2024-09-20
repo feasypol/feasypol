@@ -50,7 +50,7 @@ export default function ImageWeb(props:ImageWeb) {
     <div className="flex justify-center">
       <Image
         src={srcImage}
-        alt="placeholder"
+        alt={props.alt}
         width={widthImage}
         height={heightImage}
       />
